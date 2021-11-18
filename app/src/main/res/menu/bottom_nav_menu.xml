@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Orders"
+        android:icon="@drawable/ic_orders"
+        android:id="@+id/orders"
+        />
+    <item android:title="Statistics"
+        android:icon="@drawable/ic_earnings"
+        android:id="@+id/earnings"
+        />
+    <item android:title="Account"
+        android:icon="@drawable/ic_my_account"
+        android:id="@+id/account"
+        />
+
+
+</menu>

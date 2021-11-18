@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Restaurant App</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="card_number">Card Number</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password </string>
+    <string name="confirm_password">Confirm Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+   <string-array name="periods">
+       <item>Today</item>
+       <item>This Month</item>
+       <item>Last Month</item>
+   </string-array>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_name">الإسم</string>
+    <string name="last_name">اللقب</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="card_number">رقم البطاقة البنكية</string>
+<string name="user_name">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EarningsFragment"
+    android:orientation="vertical"
+    android:background="#ffffff">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="4dp"
+        android:paddingBottom="20dp"
+        android:id="@+id/cardStats"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Statistics"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="25dp"
+                    />
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/periodSpinner"
+                    android:gravity="right"
+                    android:layout_marginLeft="60dp"
+                    android:spinnerMode="dropdown"
+
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Orders : "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/txtTotalOrders"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Earnings : "
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtTotalEarnings"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAvgCookTime"
+                android:text="Average Cooking Time : "
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardStats"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ItemsStateRecView"
+        />
+</RelativeLayout>
+
+
+
+
+</LinearLayout>
